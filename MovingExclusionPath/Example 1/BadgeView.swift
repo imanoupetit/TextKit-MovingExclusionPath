@@ -1,15 +1,16 @@
 
 import UIKit
 
-class BadgeView: UIView {
+final class BadgeView: UIView {
     
-    required init() {
-        super.init(frame: CGRect(x: 0, y: 0, width: 120, height: 120))
+    override init(frame: CGRect) {
+        super.init(frame: frame)
         backgroundColor = UIColor.clear
     }
-    
+
     required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
+        backgroundColor = UIColor.clear
     }
     
     var roundedPath: UIBezierPath {
