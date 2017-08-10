@@ -1,5 +1,5 @@
 # MovingExclusionPath
-Add a `UIView` or `UIImageView` in `UITextView` and make it draggable accordingly with text using `UITextContainer`'s `exclusionPaths` property
+Two examples that show how to add a `UIView` or `UIImageView` in `UITextView` and make it draggable accordingly with text using `UITextContainer`'s `exclusionPaths` property
 
 ---
 
