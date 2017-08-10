@@ -21,7 +21,7 @@ final class ViewController2: UIViewController, UITextViewDelegate {
         textView.isEditable = false
         textView.isScrollEnabled = false
         textView.isSelectable = false
-        textView.textContainerInset = .zero
+        //textView.textContainerInset = .zero
 
         // Load text
         let sharedTextStorage = textView.textStorage
@@ -45,6 +45,7 @@ final class ViewController2: UIViewController, UITextViewDelegate {
         
         // Update exclusion path
         updateExclusionPath()
+        
     }
     
     private func updateExclusionPath() {
